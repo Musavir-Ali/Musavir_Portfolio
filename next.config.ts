@@ -14,6 +14,14 @@ const nextConfig: NextConfig = {
 	experimental: {
 		turbopackFileSystemCacheForDev: true,
 	},
+	images: {
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: 'play-lh.googleusercontent.com',
+			},
+		],
+	},
 	async rewrites() {
 		return [
 			{

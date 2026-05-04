@@ -3,7 +3,9 @@ import type { ProjectModal } from './types';
 interface ProjectProps {
 	index: number;
 	title: string;
-	url: string;
+	url?: string;
+	androidUrl?: string;
+	iosUrl?: string;
 	role: string;
 	setModal: (modal: ProjectModal) => void;
 }
@@ -12,12 +14,15 @@ export default function ProjectItem({
 	index,
 	title,
 	url,
+	androidUrl,
+	iosUrl,
 	role,
 	setModal,
 }: ProjectProps) {
+	const href = url || androidUrl || iosUrl || '#';
 	return (
 		<a
-			href={url}
+			href={href}
 			target='_blank'
 			onMouseEnter={() => {
 				setModal({ active: true, index });

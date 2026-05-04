@@ -27,6 +27,8 @@ export default function Projects() {
 						index={index}
 						title={project.title}
 						url={project.url}
+						androidUrl={project.androidUrl}
+						iosUrl={project.iosUrl}
 						role={project.role}
 						setModal={setModal}
 					/>
