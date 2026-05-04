@@ -19,7 +19,7 @@ export default function ProjectItem({
 	role,
 	setModal,
 }: ProjectProps) {
-	const href = url || androidUrl || iosUrl || '#';
+	const href = iosUrl || url || androidUrl || '#';
 	return (
 		<a
 			href={href}
