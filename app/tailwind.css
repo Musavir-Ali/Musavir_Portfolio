@@ -116,9 +116,7 @@ input:-webkit-autofill:focus {
   height: 4px;
 }
 
-.intro-text {
-  transition: opacity 0.4s;
-}
+
 
 /* ViewTransition API Animations for Theme Toggle */
 html {
