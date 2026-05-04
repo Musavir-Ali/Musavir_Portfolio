@@ -29,21 +29,16 @@ export default function Hero() {
             </h1>
             <section className="relative z-10">
               <p className="text-base text-justify">
-                I'm Musavir Ali — a Software Engineer focused on building
-                scalable applications and clean user experiences. I work across
-                mobile and backend systems, with hands-on experience in
-                iOS/Android development, REST API design, and integrating
-                complex backend services into production-ready apps. I enjoy
-                turning real-world problems into practical digital solutions —
-                whether that’s architecting APIs, optimizing performance, or
-                crafting intuitive UI flows. I pay close attention to structure,
-                maintainability, and how systems evolve over time. Recently,
-                I’ve been working on projects involving music platforms,
-                data-driven applications, and client-based products where
-                performance and reliability matter. I’m always exploring better
-                ways to build, ship, and improve software. I’m open to freelance
-                work, collaborations, and challenging projects that push my
-                technical and problem-solving skills further.
+                I’m Musavir Ali — a Software Engineer building scalable
+                applications and clean user experiences. I work across mobile
+                and backend systems, with experience in iOS/Android development,
+                REST APIs, and integrating complex backend services into
+                production apps. I focus on turning real-world problems into
+                efficient digital solutions — from API architecture to
+                performance optimization and intuitive UI flows. Recently, I’ve
+                worked on music platforms and data-driven products where
+                reliability and scalability are critical. I’m open to freelance
+                work, collaborations, and challenging projects.
               </p>
             </section>
             <section className="relative z-10 flex space-x-4 items-center text-sm">
