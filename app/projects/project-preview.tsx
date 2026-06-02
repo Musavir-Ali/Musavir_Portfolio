@@ -95,9 +95,12 @@ export default function ProjectPreview({ modal, projects }: ProjectModalProps) {
 				>
 					{projects.map((project) => {
 						const { src, color, title } = project;
-						const imageSrc = src && src.startsWith('http')
-							? src
-							: src ? `/static/images/project/${src}` : '';
+						const imageSrc =
+							src && src.startsWith('http')
+								? src
+								: src
+									? `/static/images/project/${src}`
+									: '';
 						return (
 							<div
 								className='flex h-full w-full items-center justify-center'
