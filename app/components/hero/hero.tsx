@@ -8,15 +8,18 @@ import SplashCursor from '../splash-cursor';
 
 export default function Hero() {
 	return (
-		<main className='relative min-h-svh w-screen overflow-hidden'>
+		<main className='relative min-h-svh w-full overflow-x-hidden'>
 			<SplashCursor
-				containerClassName='min-h-svh w-screen'
+				containerClassName='min-h-svh w-full'
 				usePrimaryColors={true}
 			>
 				<div
-					className={classNames('relative min-h-svh', merryWeather.className)}
+					className={classNames(
+						'relative min-h-svh pt-[20vh] pb-12 md:pt-[35vh] md:pb-24',
+						merryWeather.className,
+					)}
 				>
-					<div className='absolute top-[20%] md:top-[40%] max-w-5xl flex-col space-y-4 justify-center px-8 md:px-24 lg:ml-14'>
+					<div className='relative max-w-5xl flex flex-col space-y-4 px-8 md:px-24 lg:ml-14'>
 						<h1 className='text-2xl font-medium md:mr-4 md:text-4xl'>
 							Welcome to my{' '}
 							<span className='font-bold'>personal portfolio — </span> or, as I
